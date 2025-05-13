@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            font-size: 10px;
+        }
+
         .wrap {
             margin: 0 auto;
-            width: 55%;
+            width: 45%;
         }
 
         .logo {
@@ -22,6 +26,10 @@
             text-align: right;
         }
 
+        .clear {
+            clear: both;
+        }
+
         .menu {
             display: flex;
             gap: 10px;
@@ -31,13 +39,74 @@
         .menu img {
             display: block;
         }
-        .banner{
-            float:left;
-            margin :10px;
+
+        .banner {
+            float: left;
+            margin: 5px;
         }
-        #banner2{
-            width:90%;
-            height:90%;
+
+        #banner1 {
+            width: 111%;
+            height: 111%;
+        }
+
+        #banner2 {
+            position: relative;
+            left: 10px;
+        }
+
+        .d3 {
+            float: left;
+            margin: 1px;
+        }
+
+        .dd3 {
+            float: left;
+            margin: 10px;
+        }
+
+        .dd4 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .textcolor {
+            color: #00a8a9;
+
+        }
+
+        .textcolor2 {
+            color: #0bb5af;
+        }
+
+        .call {
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .oltitle {
+            font-size: 14px;
+            padding-left: 10px;
+        }
+
+        .olist ul {
+            padding-left: 20px;
+            /* 들여쓰기 조정 */
+            margin: 0;
+        }
+
+        .olist li {
+            margin-bottom: 4px;
+            /* 항목 간 여백 */
+        }
+
+        .hrhr {
+            border: 2px solid #00a8a9;
+        }
+
+        .dd4 {
+            float: left;
         }
     </style>
 </head>
@@ -77,13 +146,123 @@
         <div class="clear"></div>
         <div class="banners">
             <div class="banner">
-                <img src="img/banner01.gif" alt="">
+                <img id="banner1" src="img/banner01.gif" alt="">
             </div>
             <div class="banner">
                 <img id="banner2" src="img/banner02.gif" alt="">
             </div>
             <div class="banner">
-                <img src="img/banner03.gif" alt="">
+                <img id="banner1" src="img/banner03.gif" alt="">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="third">
+            <div class="d3">
+                <div class="dd3">
+                    <img src="img/title_customer.gif" alt="">
+                </div>
+                <div class="dd3">
+                    <img src="img/more.gif" alt="">
+                </div>
+                <div class="clear"></div>
+                <a class="textcolor call">1588-1234</a><br>
+                평 일 : <a href="" class="textcolor">오전 9시 ~ 오후 6시</a><br>
+                토요일 : <a href="" class="textcolor">오전 10시 ~ 오후 3시</a>
+            </div>
+            <div class="d3">
+                <div class="dd3">
+                    <img src="img/title_notice.gif" alt="">
+                </div>
+                <div class="dd3">
+                    <img src="img/more.gif" alt="">
+                </div>
+                <div class="clear"></div>
+                <div class="dd3 dd4">
+                    새로운 상품의 출시를 알려드립니다.
+                </div>
+                <div class="dd3 dd4">
+                    2024-03-03
+                </div>
+                <div class="clear"></div>
+                <div class="dd3 dd4">
+                    새로운 상품의 출시를 알려드립니다.
+                </div>
+                <div class="dd3 dd4">
+                    2024-03-03
+                </div>
+                <div class="clear"></div>
+                <div class="dd3 dd4">
+                    새로운 상품의 출시를 알려드립니다.
+                </div>
+                <div class="dd3 dd4">
+                    2024-03-03
+                </div>
+                <div class="clear"></div>
+                <div class="dd3 dd4">
+                    새로운 상품의 출시를 알려드립니다.
+                </div>
+                <div class="dd3 dd4">
+                    2024-03-03
+                </div>
+            </div>
+            <div class="d3">
+                <img src="img/faq.gif" alt=""><br>
+                <img src="img/cal.gif" alt="">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr>
+        <div class="d3">
+            <div class="dd3">
+                <a class="textcolor2 oltitle">손해보험 상식</a>
+                <ul>
+                    <li>손해보험이란?</li>
+                    <li>나에게 필요한 보험은?</li>
+                    <li>보험약관의 중요성</li>
+                    <li>손해보험의 특징</li>
+                </ul>
+            </div>
+            <div class="dd3">
+                <a class="textcolor2 oltitle">루바토 보험의 장점</a>
+                <ul>
+                    <li>보험료 저렴</li>
+                    <li>신속한 처리 및 보상</li>
+                    <li>만기 처리 및 보상</li>
+                    <li>만기 시 원리금 보장</li>
+                </ul>
+            </div>
+            <div class="dd3">
+                <a class="textcolor2 oltitle">고객센터</a>
+                <ul>
+                    <li>전국 지점 안내</li>
+                    <li>손해배상 안내</li>
+                    <li>손해보험 FAQ</li>
+                    <li>질문과 답변</li>
+                </ul>
+            </div>
+            <div class="dd3">
+                <a class="textcolor2 oltitle">마이 페이지</a>
+                <ul>
+                    <li>손해보험이란?</li>
+                    <li>나에게 필요한 보험은?</li>
+                    <li>보험약관의 중요성</li>
+                    <li>손해보험의 특징</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr class="hrhr">
+        <div class="d5" style="display: flex; align-items: center;">
+            <div class="dd4">
+                <img width="90%" height="90%" src="img/address.gif" alt="">
+            </div>
+            <div class="dd4" style="margin-left: 10px;">
+                <img src="img/phonenum.gif" alt="">
+                <div style="margin-top: 5px;">
+                    <img src="img/f.gif" alt="">
+                    <img src="img/b.gif" alt="">
+                    <img src="img/t.gif" alt="">
+                </div>
             </div>
         </div>
     </div>
