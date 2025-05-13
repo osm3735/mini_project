@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f2f0f0;
+        }
+
+        .wrap {
+            margin: 0 auto;
+            width: 80%;
+            align-items: center;
+
+        }
+
+        a {
+            color: #90bd11;
+        }
+
+        hr {
+            border-color: #90bd11;
+        }
+
+        .d1 {
+            margin: 20px;
+            text-align: center;
+            align-content: center;
+            float: left;
+            /* border:1px solid red; */
+
+        }
+
+        a.a2 {
+            color: #878888
+        }
+
+        a.a3 {
+            color: #000;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <hr>
+    <div class="wrap">
+        <h3><a>New ARRIVAL</a> 신규 상품</h3>
+        <div class="dimg">
+            <div class="d1">
+                <img src="img/new_01.jpg" alt=""><br>
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_02.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_03.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_04.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="clear"></div>
+            <div class="d1">
+                <img src="img/new_05.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_06.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_07.jpg" alt="">
+                <div class="info"></div>
+            </div>
+            <div class="d1">
+                <img src="img/new_08.jpg" alt="">
+                <div class="info"></div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function printsf() {
+            return `<a>맞춤제작(풍경)</a><br>
+                <a class="a2">원하는 사이즈로 제작 가능</a><br>
+                <a class="a3">20,000원</a>`;
+        }
+        document.querySelectorAll('.info').forEach(el => {
+            el.innerHTML = printsf();
+        });
+    </script>
+</body>
+
+</html>
