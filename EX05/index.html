@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>클래식기타 커뮤니티</title>
+    <style>
+        body {
+            font-size: 10px;
+            color: black;
+            margin: 0 auto;
+            width: 80%;
+            align-items: center;
+        }
+
+        .clean {
+            clear: both;
+        }
+
+        .header {
+            float: left;
+            margin: 20px;
+        }
+
+        .header_main_manu {
+            position: relative;
+            width: 800px;
+        }
+
+        .header_main_manu img {
+            width: 100%;
+            display: block;
+        }
+
+        .header_menu {
+            text-align: right;
+        }
+
+        .menu_list {
+            cursor: pointer;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        .white_text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            font-size: 17px;
+        }
+
+        .main {
+            float: left;
+            margin-inline-end: 0px;
+            margin-right: 10px;
+        }
+
+        .menu_list {
+            cursor: pointer;
+            padding: 5px 10px;
+            white-space: nowrap;
+        }
+
+        .login {
+            display: inline-block;
+            width: 250px;
+            border: 2px solid #cccccc;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #eeeeee;
+            margin-top: 15px;
+        }
+
+        .login_form {
+            display: flex;
+            align-items: center;
+        }
+
+        .login_inputs {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login_inputs input {
+            box-sizing: border-box;
+            font-size: 8px;
+            width: 40px;
+            height: 10px;
+        }
+
+        .list h4 {
+            text-align: center;
+        }
+
+        .board {
+            float: left;
+            width: 450px;
+            margin: 5px;
+        }
+
+        .board-header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+        .spacer {
+            flex: 1;
+        }
+
+        .youtube {
+            text-align: center;
+        }
+
+        .board-item {
+            float: left;
+        }
+
+        .board-list-group {
+            float: left;
+        }
+
+        .board-list {
+            overflow: hidden;
+        }
+
+        .bord-content,
+        .board-content {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .photo {
+            padding: 20px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+
+        .photo-item {
+            float: left;
+            margin: 20px;
+        }
+
+        .bottom-hr {
+            margin: 20px;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        .footer-logo {
+            text-align: right;
+        }
+
+        .footer-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .footer {
+            flex: none;
+            text-align: center;
+        }
+        .name{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="header">
+            <div class="header_menu">
+                HOME | LOGIN | JOIN | NOTICE
+            </div>
+            <div class="header_main_manu">
+                <img src="img/main_menu_bg.png" alt="">
+                <div class="white_text">
+                    <div class="menu_list">자유게시판</div>
+                    <div class="menu_list">기타 연주</div>
+                    <div class="menu_list">공동 구매</div>
+                    <div class="menu_list">연주회 안내</div>
+                    <div class="menu_list">표준 게시판</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="clean"></div>
+    <main>
+        <div class="main">
+            <div class="login">
+                <img src="img/ttl_login.png" alt="">
+                <form action="" class="login_form">
+                    <div class="login_div">
+                        <input type="text">
+                        <input type="text">
+                    </div>
+                    <div class="login_div">
+                        <img src="img/btn_login.gif" alt="">
+                    </div>
+                </form>
+
+            </div><br>
+            <div class="login list">
+                <h2>방명록</h2>
+                <hr>
+                <ul>
+                    <li>안녕하세요!</li>
+                    <li>안녕하세요!</li>
+                    <li>안녕하세요!</li>
+                    <li>안녕하세요!</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div>
+                <img src="img/main_img.png" alt="">
+            </div>
+            <div class="boards">
+                <div class="board">
+                    <div class="board-master">
+                        <div class="board-header">
+                            <img class="board-title" src="img/latest2.gif" alt="">
+                            <div class="spacer"></div>
+                            <img class="board-more" src="img/more.gif" alt="">
+                        </div>
+                        <hr>
+                        <div class="board-item">
+                            <div class="board-list-group">
+                                <img src="img/book_pen.gif" alt="">
+                            </div>
+                            <div class="board-list-group">
+                                <div class="board-list">
+                                    <div class="bord-content">루바트 개편과 사이트 이용...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">루바트 개편과 사이트 이용...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">루바트 개편과 사이트 이용...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">루바트 개편과 사이트 이용...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="board-master">
+                        <div class="board-header">
+                            <img class="board-title" src="img/latest2.gif" alt="">
+                            <div class="spacer"></div>
+                            <img class="board-more" src="img/more.gif" alt="">
+                        </div>
+                        <hr>
+                        <div class="board-item">
+                            <div class="board-list-group">
+                                <img src="img/book_pen.gif" alt="">
+                            </div>
+                            <div class="board-list-group">
+                                <div class="board-list">
+                                    <div class="bord-content">까스통님의 산물인 보드카...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">까스통님의 산물인 보드카...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">까스통님의 산물인 보드카...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                                <div class="board-list">
+                                    <div class="bord-content">까스통님의 산물인 보드카...</div>
+                                    <div class="board-content">2017-09-20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="board">
+                    <div class="board-header">
+                        <img class="board-title" src="img/latest3.gif" alt="">
+                        <div class="spacer"></div>
+                        <img class="board-more" src="img/more.gif" alt="">
+                    </div>
+                    <hr>
+                    <div class="youtube">
+                        <img src="img/bach.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="clean"></div>
+
+            <div class="photo-header">
+                <img class="photo-title" src="img/latest4.gif" alt="">
+            </div>
+            <div class="clean"></div>
+            <div class="photo">
+                <div class="photo-item">
+                    <div class="photo-img">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                    <div class="photo-content">
+                        기타 페스티벌 4중주
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-img">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                    <div class="photo-content">
+                        기타 페스티벌 4중주
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-img">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                    <div class="photo-content">
+                        기타 페스티벌 4중주
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="clean"></div>
+    <footer>
+        <hr class="bottom-hr">
+        <div class="footer-row">
+            <div class="footer">
+                <img src="img/footer_logo.gif" alt="">
+            </div>
+            <div>
+                <div class="name">오상민</div>
+                <div>010-1234-5678</div>
+            </div>
+            <div class="spacer"></div>
+            <div class="footer-logo">
+                <img src="img/facebook.gif" alt=""><img src="img/blog.gif" alt=""><img src="img/twitter.gif" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
