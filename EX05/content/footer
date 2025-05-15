@@ -1,0 +1,18 @@
+<hr class="bottom-hr">
+<div class="footer-row">
+    <div></div>
+    <div>
+        <div class="footer">
+            <img src="img/footer_logo.gif" alt="">
+        </div>
+        <div class="footer">
+            <div class="footer-profile">
+                <div class="name">오상민</div>
+                <div>010-1234-5678</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-logo">
+        <img src="img/facebook.gif" alt=""><img src="img/blog.gif" alt=""><img src="img/twitter.gif" alt="">
+    </div>
+</div>

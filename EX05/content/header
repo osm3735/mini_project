@@ -1,0 +1,18 @@
+<div class="header">
+    <img class="header-logo" src="img/logo.png" alt="">
+</div>
+<div class="header">
+    <div class="header_menu">
+        HOME | LOGIN | JOIN | NOTICE
+    </div>
+    <div class="header_main_manu">
+        <img src="img/main_menu_bg.png" alt="">
+        <div class="white_text">
+            <div class="menu_list">자유게시판</div>
+            <div class="menu_list">기타 연주</div>
+            <div class="menu_list">공동 구매</div>
+            <div class="menu_list">연주회 안내</div>
+            <div class="menu_list">표준 게시판</div>
+        </div>
+    </div>
+</div>
