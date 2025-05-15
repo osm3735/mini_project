@@ -91,7 +91,7 @@ body {
     font-size: 10px;
     width: 130px;
     height: 15px;
-    margin-bottom:3px;
+    margin-bottom: 3px;
 }
 
 .list h4 {
@@ -160,19 +160,55 @@ body {
 .footer-row {
     display: flex;
     align-items: center;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
 
 .footer {
     flex: none;
     text-align: center;
-    float:left;
+    float: left;
     margin-right: 20px;
 }
-.footer-profile{
+
+.footer-profile {
     position: relative;
-    top:10px;
+    top: 10px;
 }
+
 .name {
     font-size: 20px;
+}
+
+.community-box {
+    position: relative;
+    width: fit-content;
+}
+
+.community-header img {
+    display: block;
+    width: 200px;
+    height: 280px;
+}
+
+.community-menu {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 200px;
+    pointer-events: none;
+}
+
+.community-menu ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    color: black;
+}
+
+.community-menu li {
+    margin: 5px 0;
+    font-size:15px;
+}
+.board-title{
+    font-size:20px;
 }

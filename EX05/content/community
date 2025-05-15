@@ -1,0 +1,14 @@
+<div class="community-box">
+  <div class="community-header">
+    <img src="img/sub_menu_bg.png" alt="">
+  </div>
+  <div class="community-menu">
+    <ul>
+      <li>+ 자유 게시판</li>
+      <li>+ 방명록</li>
+      <li>+ 공지사항</li>
+      <li>+ 등업 요청</li>
+      <li>+ 포토갤러리</li>
+    </ul>
+  </div>
+</div>

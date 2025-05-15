@@ -1,4 +1,4 @@
-const ids = ['footer', 'header', 'main_login'];
+const ids = ['footer', 'header', 'main_login','community'];
 
 ids.forEach(id => {
     fetch(`content/${id}`)
