@@ -1,5 +1,5 @@
 <div class="header">
-    <img class="header-logo" src="img/logo.png" alt="">
+    <a href="index.html" class="href"><img class="header-logo" src="img/logo.png" alt=""></a>
 </div>
 <div class="header">
     <div class="header_menu">
@@ -8,7 +8,7 @@
     <div class="header_main_manu">
         <img src="img/main_menu_bg.png" alt="">
         <div class="white_text">
-            <div class="menu_list">자유게시판</div>
+            <div class="menu_list"><a href="board_list.html">자유게시판</a></div>
             <div class="menu_list">기타 연주</div>
             <div class="menu_list">공동 구매</div>
             <div class="menu_list">연주회 안내</div>

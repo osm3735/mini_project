@@ -92,10 +92,15 @@ body {
     width: 130px;
     height: 15px;
     margin-bottom: 3px;
+    margin-right: 10px;
 }
 
 .list h4 {
     text-align: center;
+}
+
+.main-img {
+    margin-bottom: 20px;
 }
 
 .board {
@@ -181,13 +186,13 @@ body {
 
 .community-box {
     position: relative;
-    width: fit-content;
+    margin-bottom: 15px;
 }
 
 .community-header img {
     display: block;
-    width: 200px;
-    height: 280px;
+    width: 100%;
+    height: 300px;
 }
 
 .community-menu {
@@ -207,8 +212,95 @@ body {
 
 .community-menu li {
     margin: 5px 0;
-    font-size:15px;
+    font-size: 15px;
 }
-.board-title{
-    font-size:20px;
+
+.board-title {
+    font-size: 20px;
+}
+
+.login.banner {
+    background-color: white;
+}
+
+.login.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.board-read .header {
+    border-top: 3px top gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.board-read .info {
+    flex: none;
+    text-align: center;
+    float: left;
+    font-size: 15px;
+}
+
+.board-read hr {
+    margin: 0;
+}
+
+.main_table {
+    text-align: center;
+    font-size: 15px;
+    align-items: center;
+}
+
+.board_list_table {
+    border-collapse: collapse;
+    align-items: center;
+    width:750px;
+}
+
+.board_list_table .table_header {
+    border-top: 2px solid gray;
+    background-color: #eeeeee;
+}
+.board_list_table .table_value {
+    border-bottom: 1px solid gray;
+}
+.left-td {
+    text-align: left !important;
+    padding-left: 10px;
+}
+
+/* .comment_text{
+    align-content: center;
+    text-align: center;
+} */
+.comment_text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.comment_text img,
+.comment_text input {
+    vertical-align: middle;
+}
+.comment_text input {
+    width: 200px;
+    height: 60px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.bt_comment {
+    margin: 5px;
+}
+.write_header{
+    border-bottom: 2px solid gray;
+}
+.write_textarea{
+    width: 300px;
+    height:100px;
+}
+.write-right{
+    border-right: 1px solid gray;
 }

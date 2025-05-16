@@ -2,7 +2,7 @@
     <img src="img/ttl_login.png" alt="">
     <form action="" class="login_form">
         <div class="login_div">
-            <input type="text">
+            <input type="text"><br>
             <input type="password">
         </div>
         <div class="login_div">
