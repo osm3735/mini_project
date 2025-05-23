@@ -1,0 +1,55 @@
+
+
+.board{
+    background-color: white;
+    padding : 5px; 
+    text-align: left;
+    border: 1px solid black;
+}
+
+.notice a{
+    color: #90bd11;
+    font-weight:bold;
+}
+
+
+.detail_02 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detail_02 a {
+    color: #90bd11;
+}
+
+.dtitle {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.detail_02 .d1 {
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    float: left;
+
+}
+
+.detail_02 a.a2 {
+    color: #878888
+}
+
+.detail_02 a.a3 {
+    color: #000;
+}
+
+.detail_02 .clear {
+    clear: both;
+}
+
+
+.main_part3 .board{
+    margin: 5px;
+}

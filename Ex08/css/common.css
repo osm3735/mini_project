@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wrap {
+    background-color: #F2F0F0;
+    
+}
+
+main {
+    margin: auto;
+    width:80%;
+}
+
+
+.detail_01{
+    display:flex;
+    margin : 20px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.orderli nav {
+    display:grid;
+    font-size: 18px;
+    grid-template: 1fr/10fr;
+    margin-bottom: 20px;
+}
+
+.orderli .order_title {
+    background-color: #90bd11;
+    padding: 5px;
+    color:white;
+    margin: 0px;
+}
+.orderli .order_list {
+    margin:0px;
+}
+.orderli .order_list{
+    padding:5px;
+    border-bottom: 1px solid black;
+}

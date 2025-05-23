@@ -9,16 +9,68 @@
 
 <body>
     <div>
-        <header id="header">
-
+        <header>
+            <div class="header">
+                <a href="index.html" class="href"><img class="header-logo" src="img/logo.png" alt=""></a>
+            </div>
+            <div class="header">
+                <div class="header_menu">
+                    HOME | LOGIN | JOIN | NOTICE
+                </div>
+                <div class="header_main_manu">
+                    <img src="img/main_menu_bg.png" alt="">
+                    <div class="white_text">
+                        <div class="menu_list"><a href="board_list.html">자유게시판</a></div>
+                        <div class="menu_list">기타 연주</div>
+                        <div class="menu_list">공동 구매</div>
+                        <div class="menu_list">연주회 안내</div>
+                        <div class="menu_list">표준 게시판</div>
+                    </div>
+                </div>
+            </div>
         </header>
         <div class="clean"></div>
         <main>
             <div class="main left-side">
-                <div id="main_login"></div>
+                <div>
+                    <div class="login">
+                        <img src="img/ttl_login.png" alt="">
+                        <form action="" class="login_form">
+                            <div class="login_div">
+                                <input type="text"><br>
+                                <input type="password">
+                            </div>
+                            <div class="login_div">
+                                <img src="img/btn_login.gif" alt="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <div class="clean"></div>
-                <div id="community"></div>
-                <div id="banner"></div>
+                <div>
+                    <div class="community-box">
+                        <div class="community-header">
+                            <img src="img/sub_menu_bg.png" alt="">
+                        </div>
+                        <div class="community-menu">
+                            <ul>
+                                <li>+ 자유 게시판</li>
+                                <li>+ 방명록</li>
+                                <li>+ 공지사항</li>
+                                <li>+ 등업 요청</li>
+                                <li>+ 포토갤러리</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="login banner">
+                        <img src="img/banner1.png" alt="">
+                        <img src="img/banner2.png" alt="">
+                        <img src="img/banner3.png" alt="">
+                    </div>
+                </div>
             </div>
             <div class="main">
                 <div class="main-img">
@@ -50,8 +102,9 @@
                                     <tr class="table_value">
                                         <td class="write-right">업로드 파일</td>
                                         <td class="left-td"><input type="text">
-                                        <button>파일 선택</button>
-                                        선택된 파일 없음</td>
+                                            <button>파일 선택</button>
+                                            선택된 파일 없음
+                                        </td>
                                     </tr>
                                 </table>
                             </div>
@@ -70,8 +123,25 @@
             </div>
         </main>
         <div class="clean"></div>
-        <footer id="footer">
-
+        <footer>
+            <hr class="bottom-hr">
+            <div class="footer-row">
+                <div></div>
+                <div>
+                    <div class="footer">
+                        <img src="img/footer_logo.gif" alt="">
+                    </div>
+                    <div class="footer">
+                        <div class="footer-profile">
+                            <div class="name">오상민</div>
+                            <div>010-1234-5678</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-logo">
+                    <img src="img/facebook.gif" alt=""><img src="img/blog.gif" alt=""><img src="img/twitter.gif" alt="">
+                </div>
+            </div>
         </footer>
     </div>
     <script src="push_html.js"></script>

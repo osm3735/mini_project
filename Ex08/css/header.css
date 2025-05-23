@@ -1,0 +1,38 @@
+header {
+    margin:0 auto;
+}
+
+.header_layer1 {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: end;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+
+.header_layer1 .nav{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);   
+    align-items: center;
+}
+
+.header_layer1 .color{
+    color: #90bd11;
+}
+header .header_layer2 {
+    margin: 0;
+    background-color: #4E4C4D;
+    padding:10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 20px;
+}
+

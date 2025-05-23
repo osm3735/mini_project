@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>쇼핑몰 회원관리 VER 1.0</title>
+    <style>
+        * {
+            margin: 0;
+            text-align: center;
+            font-size:18px;
+        }
+
+        header {
+            color: white;
+        }
+
+        .title {
+            background-color: black;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        .nav_list {
+            background-color: blueviolet;
+
+        }
+        .main_title{
+            font-size: 25px;
+            font-weight:bold;
+            margin-top:20px;
+            margin-bottom:10px;
+        }
+        .main_table{
+            align-items: center;
+            margin:auto;
+            margin-bottom:20px;
+            background-color: antiquewhite;
+        }
+        .main_table td{
+            border-bottom:1px solid black;
+            
+        }
+        .main_table .top{
+            border-top:1px solid black;
+            
+        }
+        .main_table .left{
+            border-left:1px solid black;
+        }
+        .nav_list ol {
+            list-style: none;
+            font-size: 20px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 10px;
+        }
+
+        .footer {
+            color: white;
+            font-size: 15px;
+            background: linear-gradient(to right, black, black, yellow)
+        }
+
+        @media screen and (max-width:600px) {
+            .nav_list ol {
+                grid-template: 1fr/4fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            <div class="title">쇼핑몰 회원관리 VER 1.0</div>
+            <nav class="nav_list">
+                <ol>
+                    <li class="nav_item">회원 등록</li>
+                    <li class="nav_item">회원 목록 조회/수정</li>
+                    <li class="nav_item">회원 매출 조회</li>
+                    <li class="nav_item">홈으로</li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <div class="main_title">쇼핑몰 회원 등록</div>
+                <div>
+                    <table class="main_table">
+                        <tr>
+                            <td  class="top">회원번호(자동발생)</td>
+                            <td class="top left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>회원성명</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>회원주소</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>가입일자</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>고객등급 [A:VIPB:일반,C:직원]</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>도시코드</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td>조회</td>
+                            <td class="left"><input type="text"/></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="등록" />
+                                <input type="submit" value="조화" />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="title footer">
+                HRDKOREA Copyright@2016 All rights reserve. Human Resources Development Serivce of Korea
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

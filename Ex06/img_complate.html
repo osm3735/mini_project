@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f0f2f6;
+        }
+        .wrap{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .imgarea {
+            width: 400px;
+            height: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 30px;
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            /* overflow: hidden; */
+        }
+
+        .img img {
+            width: 100px;
+            height: auto;
+            position: relative;
+            margin-right: 10px;;
+        }
+
+        .bluelay{
+            border: 1px solid blue;
+        }
+
+        .text{
+            
+        }
+
+        @media only screen and (max-width: 600px) {
+            .imgarea {
+                flex-direction: column;
+                align-items: center;
+            }
+            .wrap {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .img {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .text{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="imgarea">
+            <div class="img">
+                <img src="img/fox-in-suit.png" alt="">
+            </div>
+            <div class="text">
+                <h2>모든 웹사이트를 누가 호스팅하는지 찾으십시오</h2>
+                <p>웹사이트의 URL을 입력하여 어떤 호스팅 서비스를 사용하 는지 알아보십시오</p>
+            </div>
+        </div>
+        <div class="imgarea bluelay">
+            <div class="img">
+                <img src="img/fox-with-horn.png" alt="">
+            </div>
+            <div class="text">
+                <h2>시장 점유율 2021 </h2>
+                <p>국가별로 나뉜 각 호스팅 회 사의 2021 시장 점유율을 살 펴보십시오</p>
+            </div>
+        </div>
+        <div class="imgarea bluelay">
+            <div class="img">
+                <img src="img/fox-with-server.png" alt="">
+            </div>
+            <div class="text">
+                <h2>웹호스팅의 일대일 비교</h2>
+                <p>3개까지의 웹 호스팅 회사를 간단히 비교하고 어느 것이 더 나은지 보십시오</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
