@@ -1,0 +1,79 @@
+.detail_main {
+    margin: 20x;
+    text-align: left;
+}
+
+.hr_border {
+    border: 1px solid black;
+}
+
+.subtitle {
+    color: #90bd11;
+    font-size: 20px;
+}
+
+.detail_first {
+    display: flex;
+
+}
+
+.detail_first {
+    display: flex;
+    flex-direction: row;
+}
+.detail_first > div {
+    flex: 1; /* 자식들이 남는 공간을 균등 분할 */
+}
+.detail_first .img_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item_detail_table {
+    font-size:15px;
+    font-weight:normal;
+}
+.item_detail_table .left {
+    width: 100px;
+}
+
+.btn_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.right{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.info-table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-top: 10px;
+    background-color:white;
+}
+
+.info-table th,
+.info-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.info-table th {
+    width: 80px;
+    color: #000;
+}
+
+.info-table a {
+    color: #1a0dab; /* 파란색 */
+    font-weight: bold;
+    text-decoration: none;
+}
+.content{
+    margin-bottom: 20px;
+}

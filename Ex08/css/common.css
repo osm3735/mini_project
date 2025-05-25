@@ -2,11 +2,7 @@ body {
     margin: 0;
     text-align: center;
     font-size: 15px;
-}
-
-.wrap {
     background-color: #F2F0F0;
-    
 }
 
 main {
@@ -42,4 +38,7 @@ main {
 .orderli .order_list{
     padding:5px;
     border-bottom: 1px solid black;
+}
+.suborderli{
+    margin-right: 20px;
 }

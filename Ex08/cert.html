@@ -7,13 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/footer.css" />
-
-    <style>
-
-    </style>
-
+    <link rel="stylesheet" href="css/cert.css" />
 </head>
 
 <body>
@@ -21,7 +16,7 @@
         <header>
             <div class="header_layer1">
                 <div class="header1">
-                    <img src="img/logo.gif" alt="">
+                    <a href="./index.html"><img src="img/logo.gif" alt=""></a>
                 </div>
                 <div class="header1">
                     <a class="color">SEARCH</a>
@@ -39,7 +34,7 @@
                 </div>
             </div>
             <div class="header_layer2">
-                <div class="menu">상세 페이지</div>
+                <div class="menu"><a href="./detail.html">상세 페이지</a></div>
                 <div class="menu">고객 겔러리</div>
                 <div class="menu">주문배송</div>
                 <div class="menu">자주하는 질문</div>
@@ -47,7 +42,7 @@
         </header>
         <main>
             <div class="detail_01">
-                <div class="orderli">
+                <div class="orderli suborderli">
                     <nav>
                         <a class="order_title">CATEGORY ITEM</a>
                         <a class="order_list">생활 아트</a>
@@ -60,27 +55,79 @@
                         <a class="order_list">족자형 롤스크린</a>
                         <a class="order_list">맞춤제작 결제창</a>
                     </nav>
-                    <img src="img/customer.png  " alt="">
+                    <img src="img/customer.png" alt="">
                 </div>
-                
-                <div>
-                    
+                <div class="cert_main">
+                    <span class="subtitle">SHOPPING CART </span>
+                    <span class="subtitle" style="color:black;">장바구니</span>
+                    <hr class="hr_border">
+                    <img src="img/process.png" alt="">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>선택</th>
+                                <th>상품명</th>
+                                <th>판매가</th>
+                                <th>수량</th>
+                                <th>적립금</th>
+                                <th>배송비</th>
+                                <th>합계</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>sjdy-005 펄스틴 복지/가로 125cm×세로 90cm</td>
+                                <td>19,000원</td>
+                                <td><input type="checkbox"><button>수정</button></td>
+                                <td>100원</td>
+                                <td>3,000원</td>
+                                <td>22,000원</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>sjdy-005 펄스틴 복지/가로 125cm×세로 90cm</td>
+                                <td>19,000원</td>
+                                <td><input type="checkbox"><button>수정</button></td>
+                                <td>100원</td>
+                                <td>3,000원</td>
+                                <td>22,000원</td>
+                            </tr>
+                            <tr>
+                                <td colspan="7" class="summary">
+                                    [상품 구매 금액] : 19,000 + [배송비] : 3,000 = [총 구매액] : 22,000원
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">고객님의 총 주문 합계 금액입니다</td>
+                                <td colspan="5">
+                                    [상품 구매 금액]: 19,000원<br>
+                                    배송비: 3,000원<br>
+                                    총 주문 합계 금액: <strong>21,000원</strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="order_button">
+                        <img src="img/order_button1.gif" alt="">
+                        <img src="img/order_button2.gif" alt="">
+                        <img src="img/order_button3.gif" alt="">
+                        <img src="img/order_button4.gif" alt="">
+                        <img src="img/order_button5.gif" alt="">
+                        <img src="img/order_button6.gif" alt="">
+                    </div>
                 </div>
-                <div>
-
-                </div>
-            </div>
-            <hr style="border-color: #90bd11;">
-            <div class="detail_02">
-                
             </div>
         </main>
         <footer>
             <div class="footer_layer1">
                 <div class="menu">회사소개</div>
                 <div class="menu">이용안내</div>
-                <div class="menu">장바구니 주문조회 적립금</div>
-                <div class="menu">이용약관 개인정보보호정책</div>
+                <div class="menu"><a href="cert.html">장바구니</a></div>
+                <div class="menu">주문조회</div>
+                <div class="menu">적립금</div>
+                <div class="menu">이용약관</div>
+                <div class="menu">개인정보보호정책</div>
                 <div class="menu">고객센터</div>
             </div>
             <div class="footer_layer2">
